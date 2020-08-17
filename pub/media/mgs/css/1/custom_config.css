@@ -1,0 +1,225 @@
+@import url('//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,900,900italic');body{font-family: "Source Sans Pro", arial, tahoma;font-weight: normal;}#mainMenu{font-family: "Source Sans Pro";}
+				h1{font-family: "Source Sans Pro";font-size: 56px;}
+				h2{font-family: "Source Sans Pro";}
+				h3{font-family: "Source Sans Pro";font-size: 26px;}
+				h4{font-family: "Source Sans Pro";}
+				h5{font-family: "Source Sans Pro";}
+				h6{font-family: "Poppins";}
+				.price, .price-box .price{font-family: "Source Sans Pro";font-size: 22px;}
+				.btn{font-family: "Source Sans Pro";}
+				blockquote,.sub-title, .content-heading .block-note{font-family: "Source Sans Pro";}
+				.color-theme,a:hover, a:focus, a:active,.list-group .list-group-item.active,.extra-link a:hover, .message > * a,.search-autocomplete ul li .amount,.footer .middle-footer a:hover, .footer .middle-footer a:focus,.minicart-wrapper .action.showcart:hover:before, .minicart-wrapper .action.showcart:active:before,.minicart-wrapper .action.showcart.active,.minicart-wrapper .action.showcart.active:before,.minicart-items .product-item .product-item-details .product-item-name a:hover,.header .top-header-content a:hover, .header .top-header-content button:hover, .header .top-header-content a:focus, .header .top-header-content button:focus,.header .dropdown-switcher .dropdown-menu li > a:hover,.header .dropdown-toplinks .dropdown-toggle:hover,.header .header-wl a:hover,.header .search-form .actions-search .action-search:hover,.header .search-form.select-search .form-search .form.minisearch .search-select .dropdown-menu li a:hover,.products-grid .product-item-info .product-top .actions-link button:hover,.products-grid .product-item-info .product-item-details .product-item-name a:hover,.products-grid .product-item-info.metro_template .product-item-details .product-item-name a:hover,.list-products .product-item-info .product-item-details .product-item-name a:hover,.widget.mgs-blog-lastest-posts .post-item-content .post-item-detail .title a:hover,.breadcrumbs .items > li a:hover,.products-list .product-item-info .product-item-details .product-item-name a:hover, .products-list .product-item-info .product-item-details .product-item-name a:focus,.page-layout-1column .category-product-actions .block.filter .filter-title > .title:hover, .block.account-nav .account-nav .items .item strong, .block-order-details-comments .order-comments .comment .comment-date,.items.order-links li.current, .items.order-links li:hover,.order-details-items .table-wrapper tfoot tr.grand_total th strong, .order-details-items .table-wrapper tfoot tr.grand_total td strong,.customer-review.view .review-details .review-date,.products-grid.wishlist .product-item-info .product-item-name a:hover,.cms-noroute-index .page-main .column.main a:hover,.profile .profile-desc .profile-name:hover,.shipping-address-items .shipping-address-item.selected-item,.opc-block-summary .table-totals tr.totals.grand th, .opc-block-summary .table-totals tr.totals.grand td,.opc-block-summary .table-totals tr.totals.grand th strong, .opc-block-summary .table-totals tr.totals.grand td strong,.opc-block-shipping-information .shipping-information-title .action-edit:hover:before,#multiship-addresses-table tbody tr td.product .product-item-name a:hover,.multishipping-checkout-shipping table tbody tr td .product-item-name a:hover,.multishipping-checkout-overview table tfoot tr.grand.totals th, .multishipping-checkout-overview table tfoot tr.grand.totals td,.multicheckout.success a, .checkout-success a,.sidebar .block.block-reorder ol.product-items .product-item .product-item-name a:hover,.sidebar .block-blog-posts .post-list li a:hover,.sidebar .block-blog-categories li a:hover,.sidebar .brand-list li.active,.blog-list .post-item-info .post-info a:hover,.blog-post-view .post-item-info .post-info a:hover,.portfolio-grid .item .portfolio-top-content .portfolio-bottom-content .title:hover,.portfolio-grid .item .portfolio-top-content .portfolio-bottom-content .category-link a:hover,.checkout-cart-index .column.main .cart-empty a,.checkout-cart-index #shopping-cart-table tbody tr td.col.item .product-item-details .product-item-name a:hover, .checkout-cart-index #shopping-cart-table tbody tr td.col.item .product-item-details .product-item-name a:focus,.checkout-cart-index #shopping-cart-table .gift-options-cart-item .action-gift:hover,.full-review.product-reviews-summary .reviews-actions a:hover, .full-review.product-reviews-summary .reviews-actions a:focus,.box-tocart .field.qty > .control span.edit-qty:hover,.product-info-main .product-info-stock-sku .stock span,.product-info-main .product-sub-infomation .product.attribute.sku span.value,.product-info-main .product-sub-infomation .product-brand .brand-name a,.product-add-form .product-options-wrapper .swatch-opt .swatch-attribute-label + .swatch-attribute-selected-option,.block.review-list .review-items li.review-item .review-title,.block.review-add .review-form h4 span,.opc-estimated-wrapper .estimated-block .estimated-price,.header ul.social-link li a:hover,.header .nav.nav-main-menu > li > a:hover,.onestepcheckout-index-index .page-main .main .checkout-container .aw-onestep-sidebar .aw-onestep-sidebar-header::before,.onestepcheckout-index-index .page-main .main .checkout-container .aw-onestep-main .aw-onestep-groups .aw-onestep-groups_item .group-title .mark,.onestepcheckout-index-index .page-main .main .checkout-container input[type="radio"] + label::before, .onestepcheckout-index-index .page-main .main .checkout-container input[type="checkbox"]:checked + label::before,.onestepcheckout-index-index .page-main .main .checkout-container .aw-onestep-sidebar-wrapper .aw-onestep-sidebar-content .aw-onestep-sidebar-block.payment-option .payment-option-title .action-toggle,.onestepcheckout-index-index .page-main .main .checkout-container .aw-onestep-sidebar-wrapper .aw-onestep-sidebar-content .aw-onestep-sidebar-block.payment-option .payment-option-title .action-toggle::after,.onestepcheckout-index-index .page-main .main .checkout-container .aw-onestep-sidebar-wrapper .aw-onestep-sidebar-content .aw-sidebar_order-note span,.onestepcheckout-index-index .page-main .main .checkout-container .aw-onestep-sidebar-wrapper .aw-onestep-sidebar-content .aw-sidebar_order-note span::after,.onestepcheckout-index-index .aw-onestep-main .authentication-link a,.block.aw-layered-nav .block-content.filter-content .filter-options .filter-options-item .filter-options-content .show-more span,.onestepcheckout-index-index .page-main .main .checkout-container input[type="radio"] + label::before, .onestepcheckout-index-index .page-main .main .checkout-container input[type="radio"]:checked + label::before,.onestepcheckout-index-index .page-main .main .checkout-container .aw-onestep-main .aw-onestep-groups .shipping-address-items ol .shipping-address-item.selected-item::after{color: #437EC2;}.btn:hover, .btn:focus, .btn:active,.btn-default2:hover, .btn-default2:focus, .btn-default2:active,.btn-primary:hover, .btn-primary:focus, .btn-primary:active,.btn-secondary,.owl-carousel .owl-nav > div:not(.disabled):hover,.minicart-items .product-item .details-qty.qty .update-cart-item:hover, .minicart-items .product-item .details-qty.qty .update-cart-item:focus, .minicart-items .product-item .details-qty.qty .update-cart-item:active,.minicart-items .product-item .product.actions .action:hover,.list-products .product-item-info .product-image .action.mgs-quickview:hover,.btn.btn-promo-banner:hover, .btn.btn-promo-banner:focus,.tag-cloud a:hover,.product-items .ajax-loading .scroll-ajax-button,.products-list .action.mgs-quickview:hover,.products-list .product-item-info .product-item-details .actions-link .action.tocart:hover, .products-list .product-item-info .product-item-details .actions-link .action.tocart:focus,.shipping-address-items .action:hover,#shipping-method-buttons-container .action, .payment-method-content .actions-toolbar .action, #shipping-method-buttons-container button.action, .payment-method-content .actions-toolbar button.action,.authentication-wrapper .action-auth-toggle:hover,.payment-option.discount-code .form-discount .actions-toolbar .action.action-apply:hover,.checkout-cart-index .cart-summary .checkout-methods-items .item .action.checkout:hover,.product-info-main .product-add-form .actions button.tocart, .bundle-info .product-details .actions button.tocart,.product.media .product-video-button a:hover,.product.media .row.vertical-thumbnail .slick-slider .slick-arrow:hover,.items.order-links li.current, .items.order-links li:hover,.btn-print:hover,.shipping-address-items .shipping-address-item.selected-item,.onestepcheckout-index-index .page-main .main .checkout-container .aw-onestep-main .aw-onestep-groups .aw-onestep-groups_item .group-title .mark{border-color: #437EC2;}.btn:hover, .btn:focus, .btn:active,.btn-default2:hover, .btn-default2:focus, .btn-default2:active,.btn-primary:hover, .btn-primary:focus, .btn-primary:active,.btn-secondary,.owl-carousel .owl-nav > div:not(.disabled):hover,.minicart-items .product-item .details-qty.qty .update-cart-item:hover, .minicart-items .product-item .details-qty.qty .update-cart-item:focus, .minicart-items .product-item .details-qty.qty .update-cart-item:active,.minicart-items .product-item .product.actions .action:hover,.list-products .product-item-info .product-image .action.mgs-quickview:hover,.btn.btn-promo-banner:hover, .btn.btn-promo-banner:focus,.tag-cloud a:hover,.product-items .ajax-loading .scroll-ajax-button,.products-list .action.mgs-quickview:hover,.products-list .product-item-info .product-item-details .actions-link .action.tocart:hover, .products-list .product-item-info .product-item-details .actions-link .action.tocart:focus,.shipping-address-items .action:hover,#shipping-method-buttons-container .action, .payment-method-content .actions-toolbar .action, #shipping-method-buttons-container button.action, .payment-method-content .actions-toolbar button.action,.authentication-wrapper .action-auth-toggle:hover,.payment-option.discount-code .form-discount .actions-toolbar .action.action-apply:hover,.checkout-cart-index .cart-summary .checkout-methods-items .item .action.checkout:hover,.product-info-main .product-add-form .actions button.tocart, .bundle-info .product-details .actions button.tocart,.product.media .product-video-button a:hover,.product.media .row.vertical-thumbnail .slick-slider .slick-arrow:hover, .product-label.new-label,.opc-estimated-wrapper .minicart-wrapper button.action.showcart > .counter.qty,.onestepcheckout-index-index .page-main .main .checkout-container .aw-onestep-main .payment-method._active::before,.block.aw-layered-nav .block-content.filter-content .filter-options .filter-options-item .filter-options-content .aw-layered-nav-priceslider .ui-slider-horizontal,.block.aw-layered-nav .block-content.filter-content .filter-options .filter-options-item .filter-options-content .aw-layered-nav-priceslider .ui-slider-handle, .irs-slider, .irs-bar{background-color: #437EC2;}.top-header-content a:hover, .top-header-content .dropdown-switcher .switcher-toggle:hover{color: #437ec2 !important;}.header .dropdown-switcher .dropdown-menu li > a:hover, .header .dropdown-switcher .dropdown-menu li > a:focus{color: #a6c623 !important;}#mainMenu .level0:hover a.level0{color: #437ec2 !important;}.btn-default{background-color: #437ec2 !important;}.btn-primary, .tocart.btn-cart{background-color: #437ec2 !important;}.btn-secondary{background-color: #437ec2 !important;}h3{
+font-weight:600;
+}
+
+.control{
+border-radius:unset !important;
+}
+
+.slide-text h2{
+font-size:56px;
+line-height:1.2;
+font-weight:900;
+}
+
+.slide-text h5{
+margin-bottom:10px;
+font-size:22px;
+}
+
+h2{
+font-weight:800;
+letter-spacing:0px;
+line-height:1.2;
+}
+
+p{
+font-size:22px;
+font-weight:100;
+}
+
+.benefittext{
+font-size:22px;
+margin-top:10px;
+}
+
+.slider_mgs_carousel .owl-item .slide-text > * {
+    max-width: 750px;
+}
+
+.slider_text{
+font-size:22px;
+margin-top:40px;
+margin-bottom:40px;
+max-width:490px;
+}
+
+.benefit img{
+max-width:150px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefit h3{
+padding:20px 20px;
+}
+
+.button {
+  background-color: #EA6628;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+text-transform:uppercase;
+font-weight:600;
+letter-spacing:0.06em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #EA6628; 
+  color: white; 
+  border: 2px solid #EA6628;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+border: 2px solid #EA6628;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #EA6628;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+ #learnmore {
+      padding-right: 15px;
+      color: #427DC2;
+letter-spacing:0.03em;
+text-transform:uppercase;
+font-weight:600;
+font-size:22px;
+    }
+#learnmore::after{
+content:url('https://i.ibb.co/W2XLKZ2/Icon-awesome-arrow-right.png');
+padding-left:15px;
+    }
+
+#learnmore a{
+color:#428bca;
+}
+
+#product-addtocart-button{
+
+  background-color: #EA6628;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+text-transform:uppercase;
+font-weight:600;
+letter-spacing:0.06em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.product-data-items-content .title-accordion{
+font-size:22px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.product-detail-infomation .product-name{
+font-size:36px;
+}
+
+#product-addtocart-button{
+  background-color: #EA6628; /* Green */
+  border: none;
+  color: white;
+  padding: 2px 32px;
+  text-align: center;
+text-transform:uppercase;
+font-weight:600;
+letter-spacing:0.06em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius:unset;
+  transition-duration: 0.4s;
+  cursor: pointer;
+height:40px;
+
+}
+
+.product-data-items-content .title-accordion:after{
+background-color:#437ec2;
+
+}
+
+
+
+
+.page-title-wrapper{
+display:none;
+}
