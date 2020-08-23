@@ -3,7 +3,6 @@
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.
  */
-
 // @codingStandardsIgnoreFile
 
 /**
@@ -32,25 +31,23 @@ if ($_attributeType && $_attributeType == 'text') {
     $_attributeValue = $_helper->productAttribute($_product, $_product->$_call(), $_code);
 }
 ?>
-<?php if($_attributeValue): ?>
-	<?php if($_className == 'overview'): ?>
-		<?php if($themeHelper->getStoreConfig('mpanel/product_details/short_description')): ?>
-			<div class="product attribute <?php /* @escapeNotVerified */ echo $_className?>">
-				<?php if ($_attributeLabel != 'none'): ?><strong class="type"><?php /* @escapeNotVerified */ echo $_attributeLabel?></strong><?php endif; ?>
-				<div class="value std" <?php /* @escapeNotVerified */ echo $_attributeAddAttribute;?>><?php /* @escapeNotVerified */ echo $_attributeValue; ?></div>
-			</div>
-		<?php endif; ?>
-	<?php elseif($_className == 'sku'): ?>
-		<?php if($themeHelper->getStoreConfig('mpanel/product_details/sku')): ?>
-			<div class="product attribute <?php /* @escapeNotVerified */ echo $_className?>">
-				<?php if ($_attributeLabel != 'none'): ?><strong class="type"><?php /* @escapeNotVerified */ echo $_attributeLabel?></strong><?php endif; ?>
-				<span class="value" <?php /* @escapeNotVerified */ echo $_attributeAddAttribute;?>><?php /* @escapeNotVerified */ echo $_attributeValue; ?></span>
-			</div>
-		<?php endif; ?>
-	<?php else: ?>
-		<div class="product attribute <?php /* @escapeNotVerified */ echo $_className?>">
-			<?php if ($_attributeLabel != 'none' || $_attributeLabel != __('none')): ?><strong class="type"><?php /* @escapeNotVerified */ echo $_attributeLabel?></strong><?php endif; ?>
-			<span class="value" <?php /* @escapeNotVerified */ echo $_attributeAddAttribute;?>><?php /* @escapeNotVerified */ echo $_attributeValue; ?></span>
-		</div>
-	<?php endif ?>
-<?php endif ?>
+<?php if ($_attributeValue): ?>
+    <?php if ($_className == 'overview'): ?>
+        <?php if ($themeHelper->getStoreConfig('mpanel/product_details/short_description')): ?>
+            <div class="product attribute <?php /* @escapeNotVerified */ echo $_className ?>">
+                <div class="value std" <?php /* @escapeNotVerified */ echo $_attributeAddAttribute; ?>><?php /* @escapeNotVerified */ echo $_attributeValue; ?></div>
+            </div>
+        <?php endif; ?>
+    <?php elseif ($_className == 'sku'): ?>
+        <?php if ($themeHelper->getStoreConfig('mpanel/product_details/sku')): ?>
+            <div class="product attribute <?php /* @escapeNotVerified */ echo $_className ?>">
+                <span class="value" <?php /* @escapeNotVerified */ echo $_attributeAddAttribute; ?>><?php /* @escapeNotVerified */ echo $_attributeValue; ?></span>
+            </div>
+        <?php endif; ?>
+    <?php else: ?>
+        <div class="product attribute <?php /* @escapeNotVerified */ echo $_className ?>">
+            <span class="value" <?php /* @escapeNotVerified */ echo $_attributeAddAttribute; ?>><?php /* @escapeNotVerified */ echo $_attributeValue; ?></span>
+        </div>
+    <?php endif ?>
+<?php endif;
+?>

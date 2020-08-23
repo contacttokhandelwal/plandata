@@ -1,0 +1,19 @@
+span#tooltip-label {
+    display: none;
+}
+.checkout-cart-index .cart-summary .checkout-methods-items .item .action.checkout, .btn-default,.btn-primary, .tocart.btn-cart{
+    background-color: #427DC2!important;
+    border: 1px solid #427DC2!important;
+    border-radius:0px!important;
+    -webkit-border-radius:0px!important;
+    color: #fff !important;
+}
+.checkout-cart-index .checkout-extra > .block + .block > .title {
+    margin-top: 80px!important;
+}
+.product-info-main .product-add-form .actions, .bundle-info .product-details .actions {
+    margin-top: -5px;
+}
+.success-ajax--popup .mfp-inline-holder .mfp-content {
+    height:300px!important;
+}

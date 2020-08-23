@@ -36,12 +36,12 @@
         <?php $_dob = $block->getLayout()->createBlock('Magento\Customer\Block\Widget\Dob') ?>
         <?php if ($_dob->isEnabled()): ?>
             <?php echo $_dob->setDate($block->getFormData()->getDob())->toHtml() ?>
-        <<?php endif ?>
+        <?php endif ?>
 
         <?php $_taxvat = $block->getLayout()->createBlock('Magento\Customer\Block\Widget\Taxvat') ?>
         <?php if ($_taxvat->isEnabled()): ?>
             <?php echo $_taxvat->setTaxvat($block->getFormData()->getTaxvat())->toHtml() ?>
-        <<?php endif ?>
+        <?php endif ?>
 
         <?php $_gender = $block->getLayout()->createBlock('Magento\Customer\Block\Widget\Gender') ?>
         <?php if ($_gender->isEnabled()): ?>
